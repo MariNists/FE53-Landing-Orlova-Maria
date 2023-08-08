@@ -1,0 +1,42 @@
+@import url('./cdn.css');
+@import url('./awesome.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Open Sans", "Raleway", sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.tittle {
+   color: #212121;
+   font-size: 36px; 
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 34px;
+   font-family: "Raleway";
+  
+}
+.awesome-line {
+    width: 64px;
+    height: 1px;
+    background: #E72424;
+    margin: 0 auto 34px;
+}
+.awesome-description {
+    text-align: center;
+    margin-bottom: 68px;
+    font-weight: 400;
+    color: #86878B;
+    
+}
